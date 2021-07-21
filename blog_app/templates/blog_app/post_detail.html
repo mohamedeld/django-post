@@ -1,0 +1,13 @@
+<h2>Post Details</h2>
+<hr>
+<a href="{% url 'blog:post_edit' post.id %}">Edit Post</a>
+<hr>
+
+<h3>{{post.title}}</h3>
+
+<h4>{{post.content}}</h4>
+
+<h5>{{post.published}}</h5>
+
+<h5>{{post.email}}</h5>
+<h5>{{post.category}}</h5>
